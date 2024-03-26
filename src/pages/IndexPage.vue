@@ -87,7 +87,7 @@ export default {
 }
 
 .video-item {
-  flex: 0 0 33.33%;
+  flex: 0 0 25%;
   padding: 10px;
   box-sizing: border-box;
 }

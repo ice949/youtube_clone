@@ -11,6 +11,7 @@
       avatar
     >
       <q-icon :name="props.icon" />
+      <q-icon :name="props.title" />
     </q-item-section>
   </q-item>
 </template>

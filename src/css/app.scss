@@ -28,10 +28,32 @@
 .container {
   display: flex;
   align-items: center;
+  gap: 10px;
+  font-size: 20px;
 }
 
 .menu-button {
   margin-right: 10px;
+}
+
+.q-page-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
+  padding-left: 80px !important;
+}
+
+.q-drawer {
+  width: 5% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.q-page {
+  width: 95% !important;
+  padding-left: 0 !important;
 }
 
 .search-input {
@@ -107,4 +129,11 @@ img {
   padding: 10px;
   border-radius: 30px;
   gap: 10px;
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

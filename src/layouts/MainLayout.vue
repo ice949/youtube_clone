@@ -80,8 +80,6 @@
           />
         </q-list>
       </q-drawer>
-
-      <!-- Page Content -->
       <div class="q-page">
         <router-view />
       </div>
